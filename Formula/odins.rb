@@ -1,16 +1,16 @@
 class Odins < Formula
   desc "The All-Father of Local DNS — Local DNS + Reverse Proxy manager for macOS"
   homepage "https://github.com/adialaleal/odins"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/adialaleal/odins/releases/download/v0.1.0/odins_0.1.0_darwin_arm64.tar.gz"
-      sha256 "9dff23092962aa945ae62bd30647294abafe050a5259e94644f9c0d791b4a8a8"
+      url "https://github.com/adialaleal/odins/releases/download/v0.2.0/odins_0.2.0_darwin_arm64.tar.gz"
+      sha256 "ea48a7e3e975187a6816459f20c07e8ef82a2468073860e1ea225e72d1805d51"
     else
-      url "https://github.com/adialaleal/odins/releases/download/v0.1.0/odins_0.1.0_darwin_amd64.tar.gz"
-      sha256 "b2b608510b48f1eac82cb6c50bb2212b814fbba8f45ac16f9b105cac112f1eef"
+      url "https://github.com/adialaleal/odins/releases/download/v0.2.0/odins_0.2.0_darwin_amd64.tar.gz"
+      sha256 "6352f53499ac413d5654ed6cfa5ea82b1c8544117f44ae40c4208b0ff146c113"
     end
   end
 
